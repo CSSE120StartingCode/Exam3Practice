@@ -1,40 +1,47 @@
 """
-PRACTICE Test 3.
+PRACTICE Exam 3.
 
 This problem provides practice at:
   ***  LOOPS WITHIN LOOPS in 2D GRAPHICS problems.  ***
 
-Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+Authors: David Mutchler, Vibha Alangar, Dave Fisher, Matt Boutell, Mark Hays,
+         Mohammed Noureddine, Sana Ebrahimi, Sriram Mohan, their colleagues and
+         PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
-########################################################################
-# Students:
-#
-# These problems have DIFFICULTY and TIME ratings:
-#  DIFFICULTY rating:  1 to 10, where:
-#     1 is very easy
-#     3 is an "easy" Test 2 question.
-#     5 is a "typical" Test 2 question.
-#     7 is a "hard" Test 2 question.
-#    10 is an EXTREMELY hard problem (too hard for a Test 2 question)
-#
-#  TIME ratings: A ROUGH estimate of the number of minutes that we
-#     would expect a well-prepared student to take on the problem.
-#
-#  IMPORTANT: For ALL the problems in this module,
-#    if you reach the time estimate and are NOT close to a solution,
-#    STOP working on that problem and ASK YOUR INSTRUCTOR FOR HELP
-#    on it, in class or via Piazza.
-########################################################################
+###############################################################################
+# TODO: 2.  [Note: same _TODO_ as its matching one in module m1.]
+#  Students:
+#  __
+#  These problems have DIFFICULTY and TIME ratings:
+#    DIFFICULTY rating:  1 to 10, where:
+#       1 is very easy
+#       3 is an "easy" Exam 3 question.
+#       5 is a "typical" Exam 3 question.
+#       7 is a "hard" Exam 3 question.
+#      10 is an EXTREMELY hard problem (too hard for a Exam 3 question)
+#  __
+#    TIME ratings: A ROUGH estimate of the number of minutes that we
+#       would expect a well-prepared student to take on the problem.
+#  __
+#    IMPORTANT: For ALL the problems in this module,
+#      if you reach the time estimate and are NOT close to a solution,
+#      STOP working on that problem and ASK YOUR INSTRUCTOR FOR HELP on it,
+#      in class or via Piazza.
+#  __
+#  After you read (and understand) the above, change this _TODO_ to DONE.
+###############################################################################
 
 import rosegraphics as rg
 
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    run_test_hourglass()
-    run_test_many_hourglasses()
+    print()
+    print("Un-comment and re-comment calls in MAIN one by one as you work.")
+
+    # run_test_hourglass()
+    # run_test_many_hourglasses()
 
 
 def run_test_hourglass():
@@ -88,19 +95,17 @@ def hourglass(window, n, point, radius, color):
     where n and radius are positive and color is a string that denotes
     a color that rosegraphics understands.
     """
-    # ------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
-    #       We provided some tests for you (above).
-    # ------------------------------------------------------------------
-    ####################################################################
-    # BONUS: Avoid replicated code if you can.  Hint: You are allowed
+    # -------------------------------------------------------------------------
+    # TODO: 3. Implement and test this function.
+    #          We provided some tests for you (above).
+    #  ########################################################################
+    #  BONUS: Avoid replicated code if you can.  Hint: You are allowed
     #        to define an additional function(s) if you wish.
-    ####################################################################
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      8
     #    TIME ESTIMATE:  25 minutes (warning: this problem is challenging)
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
 def run_test_many_hourglasses():
@@ -162,26 +167,24 @@ def many_hourglasses(window, square, m, colors):
     where m is positive and colors is a sequence of strings,
     each of which denotes a color that rosegraphics understands.
     """
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
     #       We provided some tests for you (above).
-    # ------------------------------------------------------------------
-    ####################################################################
-    # IMPORTANT:
+    #  ########################################################################
+    #  IMPORTANT:
     #   1. Partial credit if you draw JUST the rectangles.
     #   2. No additional credit unless you CALL the  hourglass  function
     #        in the PREVIOUS problem appropriately
     #        to draw the hourglass figures.
-    ####################################################################
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     # DIFFICULTY AND TIME RATINGS (see top of this file for explanation)
     #    DIFFICULTY:      7  (assuming that you already have
     #                         a correct "hourglass" function above)
     #    TIME ESTIMATE:  20 minutes (warning: this problem is challenging)
-    # ------------------------------------------------------------------
+    # -------------------------------------------------------------------------
 
 
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
-# ----------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 main()
